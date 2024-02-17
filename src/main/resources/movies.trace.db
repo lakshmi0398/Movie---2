@@ -1,0 +1,6 @@
+2024-02-14 17:18:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]selet * from movieList where movieId=? "; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+selet * from movieList where movieId=?  [42001-214]
+2024-02-14 17:34:53 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]selet * from movieList where movieName=? and leadActor=?"; expected "SAVEPOINT, SCRIPT, SHUTDOWN, SHOW"; SQL statement:
+selet * from movieList where movieName=? and leadActor=? [42001-214]
